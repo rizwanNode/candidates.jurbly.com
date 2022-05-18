@@ -17,7 +17,7 @@ class InfoCard extends React.Component {
   }
 
   getYouTubeVideos = userId => {
-    const url = 'https://a.deephire.com/v1/candidates/';
+    const url = 'https://a.jurbly.com/v1/candidates/';
 
     fetch(`${url + userId}`)
       .then(results => results.json())
