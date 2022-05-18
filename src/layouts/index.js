@@ -88,7 +88,7 @@ const BasicLayout = ({ children }) => {
           extra={<ShareLink />}
           title={
             <img
-              src={companyInfo.logo || 'https://s3.amazonaws.com/deephire/dh_vertical.png'}
+              src={companyInfo.logo || 'https://s3.amazonaws.com/jurbly/dh_vertical.png'}
               alt={companyInfo.companyName}
               height="48px"
               style={companyInfo.brand ? logoStyle : {}}
