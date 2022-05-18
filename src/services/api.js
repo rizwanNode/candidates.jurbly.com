@@ -2,7 +2,7 @@ import fetch from 'isomorphic-fetch';
 // require('es6-promise').polyfill();
 // require('isomorphic-fetch');
 
-const apiUrl = 'https://a.deephire.com/v1/';
+const apiUrl = 'https://a.jurbly.com/v1/';
 // const apiUrl = 'https://dev-a.deephire.com/v1/';
 
 // const apiUrl = 'http://localhost:3000/v1/';
@@ -39,9 +39,9 @@ export const trackAnalytics = (id, data) => {
 export const sendEmail = (template, id, clientName, clientEmail, createdBy, description) => {
   var data = {
     template,
-    analyticsUrl: `https://recruiter.deephire.com/sharelinks/analytics/?id=${id}`,
+    analyticsUrl: `https://recruiter.jubrly.com/sharelinks/analytics/?id=${id}`,
     clientName,
-    recipients: [createdBy || 'noemail@deephire.com'],
+    recipients: [createdBy || 'noemail@jurbly.com'],
     clientEmail,
     sharelinkDescription: description,
   };
