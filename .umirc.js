@@ -13,7 +13,7 @@ export default {
         antd: true,
         dva: false,
         dynamicImport: false,
-        title: 'DeepHire',
+        title: 'Jurbly',
         dll: false,
         routes: {
           exclude: [/components\//],
