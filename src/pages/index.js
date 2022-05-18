@@ -19,7 +19,7 @@ export default class Shortlist extends Component {
       <div className={styles.normal}>
         <div className={styles.welcome} />
         <ul className={styles.list}>
-          Email our support at russell@deephire.com if you get to this page and don't know why. 
+          Email our support at max@jurbly.com if you get to this page and don't know why. 
         </ul>
       </div>
     );
