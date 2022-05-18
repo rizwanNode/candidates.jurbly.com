@@ -13,7 +13,7 @@ const Documents = ({ email }) => {
         if (candidateProfile.files) {
           candidateProfile.files = r.files.map(r => ({
             ...r,
-            url: `https://a.deephire.com/v1/candidates/${email}/documents/${r.uid}`,
+            url: `https://a.jurbly.com/v1/candidates/${email}/documents/${r.uid}`,
           }));
         }
         setCandidateProfileData(candidateProfile);
