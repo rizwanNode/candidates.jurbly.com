@@ -1,7 +1,6 @@
 import { fetchCompanyInfo, fetchShortlist, trackAnalytics } from '@/services/api';
 import { PageHeader } from 'antd';
 import { lowerCaseQueryParams } from '@bit/russeii.deephire.utils.utils';
-import * as Sentry from '@sentry/browser';
 
 import React, { useEffect, useState } from 'react';
 import styles from './index.css';
@@ -13,7 +12,6 @@ import { useVideo } from '@bit/russeii.deephire.hooks';
 
 import moment from 'moment';
 
-Sentry.init({ dsn: 'https://ba050977b865461497954ae331877145@sentry.io/5187820' });
 
 export const ShortListContext = React.createContext();
 
