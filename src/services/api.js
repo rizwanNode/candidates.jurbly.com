@@ -39,7 +39,7 @@ export const trackAnalytics = (id, data) => {
 export const sendEmail = (template, id, clientName, clientEmail, createdBy, description) => {
   var data = {
     template,
-    analyticsUrl: `https://recruiter.jubrly.com/sharelinks/analytics/?id=${id}`,
+    analyticsUrl: `https://recruiter.jurbly.com/sharelinks/analytics/?id=${id}`,
     clientName,
     recipients: [createdBy || 'noemail@jurbly.com'],
     clientEmail,
