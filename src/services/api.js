@@ -64,7 +64,7 @@ export const getCandidateProfile = async id => {
 };
 
 export const getShortList = (shortlistId, num) => {
-  const url = 'https://a.deephire.com/v1/shortlists/';
+  const url = 'https://a.jurbly.com/v1/shortlists/';
 
   return fetch(`${url}/${shortlistId}`)
     .then(results => results.json())
